@@ -421,7 +421,7 @@ struct Vertex parse_vertex(unsigned long* nbBracketsOpen)
     
     do
     {
-        readLine();
+        readLine(); // Read the line
         trim = buffer;
         trim = trim(trim);
         
