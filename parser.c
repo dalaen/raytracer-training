@@ -4,6 +4,7 @@
 #include <string.h>
 #include "structs.h"
 #include "parser.h"
+
 #define MAX_LINE_SIZE 1024
 #define readLine() fgets(buffer, MAX_LINE_SIZE, stdin)
 #define trim(what) ltrim(rtrim(what))
