@@ -57,9 +57,13 @@ void parse(struct Scene *outScene, struct Material **outMaterial, long* nbMateri
         if (strstr(trim, "sphere") != NULL)
         {
             if (*nbSpheres == 0)
+            {
                 *outSphere = (struct Sphere*) malloc(sizeof(struct Sphere));
+            }
             else if (*nbSpheres > 0)
+            {
                 *outSphere = (struct Sphere*) realloc(*outSphere, sizeof(struct Sphere) * (*nbSpheres + 1));
+            }
             (*outSphere)[(*nbSpheres)++] = parse_sphere(&nbBracketsOpen);
         }
         if (strstr(trim, "point_light") != NULL)
