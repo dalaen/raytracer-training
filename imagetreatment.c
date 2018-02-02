@@ -26,10 +26,8 @@ void buildImage(const struct OutputInfo output, const struct Material* materials
     const long POV_OFFSET = -2000;          // Constitute the camera depth position
     long materialId;
     long cameraId;
-    long i;
-    long j;
-    long x;
-    long y;
+    long i, j;
+    long x, y;
     long reflectionDepthLevel;
     float distanceIntersection;
     float lambert;

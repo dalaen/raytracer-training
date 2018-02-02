@@ -14,6 +14,8 @@ extern "C" {
 
     void buildImage(const struct OutputInfo, const struct Material*, const long, const struct Sphere*, const long, const struct LightPoint*, const long, const struct Camera*, const long);
     void makeOutput(const struct OutputInfo);
+
+    // Print Line to the file
     void printLine(const struct Pixel, const struct OutputInfo);
 
 
