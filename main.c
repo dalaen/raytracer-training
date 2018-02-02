@@ -24,7 +24,7 @@ int main(int argc, char** argv)
     struct TriangleMesh* triangles = NULL;
     long nbTriangles = 0;
     
-    // another commit
+    // Meanwhile on master, going on itself
 
     struct OutputInfo output;
     char* sceneFile = NULL;
