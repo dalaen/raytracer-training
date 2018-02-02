@@ -431,6 +431,7 @@ struct Vertex parse_vertex(unsigned long* nbBracketsOpen)
             (*nbBracketsOpen)--;
             continue; // Next line
         }
+
         if (is_comment(trim)) // Jump over comments
             continue;
         if (strlen(trim) == 0) // Blank line? Jump!
@@ -476,6 +477,7 @@ void parse_render(char** sceneFil, struct Camera** outCamera, const long* nbCame
             nbBracketsOpen--;
             continue; // Next line
         }
+
         if (is_comment(trim)) // Jump over comments
             continue;
         if (strlen(trim) == 0) // Blank line? Jump!
