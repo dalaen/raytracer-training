@@ -41,7 +41,7 @@ int main(int argc, char** argv)
     char* outputFilename = NULL;
     char** whichFilename[3] = {NULL};
     
-    bool isConf[3] = {false};
+    int isConf[3] = {0};
     long i = 0;
     
     // Should be moved to another file?
