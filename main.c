@@ -1,6 +1,8 @@
 /* 
  * File:   main.c
  * Author: xavier*/
+ 
+ // Diverging on the securing branch
 #include "structs.h"
 #include "rays.h"
 #include "spheres.h"
