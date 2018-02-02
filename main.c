@@ -88,7 +88,7 @@ int main(int argc, char** argv)
         else
         {
             fprintf(stderr, "You must use options associated with a filename!\n");
-            return(EXIT_FAILURE);
+            return(EXIT_FAILURE); // does this still work?
         }
     }
     while (--i >= 0)
