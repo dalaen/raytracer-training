@@ -130,7 +130,7 @@ int main(int argc, char** argv)
     }
     
     makeOutput(output); // Next step : directly in the file ?
-    // IMMA CHARGIN MAH LAZER
+    // This comment got old.
     buildImage(output, materials, nbMaterials, spheres, nbSpheres, lightPoints, nbLightPoints, cameras, nbCameras);
     
     free(renderFilename);
