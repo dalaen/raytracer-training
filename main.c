@@ -32,6 +32,8 @@ int main(int argc, char** argv)
     long nbCameras = 0;
     struct TriangleMesh* triangles = NULL;
     long nbTriangles = 0;
+    
+    // another commit
 
     struct OutputInfo output;
     char* sceneFile = NULL;
