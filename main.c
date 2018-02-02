@@ -1,14 +1,6 @@
 /* 
  * File:   main.c
- * Author: xavier
- *
- * Created on 19. oktober 2011, 08:26
- */
-
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdbool.h>
+ * Author: xavier*/
 #include <time.h>
 #include "structs.h"
 #include "rays.h"
