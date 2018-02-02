@@ -75,12 +75,12 @@ int main(int argc, char** argv)
             if (isCLIOption("-s", i)) // Scene file following
             {
                 whichFilename[i] = &sceneFilename;
-                isConf[i] = true;
+                isConf[i] = 1;
             }
             else if (isCLIOption("-r", i))
             {
                 whichFilename[i] = &renderFilename;
-                isConf[i] = true;
+                isConf[i] = 1;
             }
             else if (isCLIOption("-o", i))
                 whichFilename[i] = &outputFilename;
