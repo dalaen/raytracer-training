@@ -17,6 +17,8 @@
 
 struct Scene init_scene(long nbSphere, long width, long height)
 {
+    // Basically initialize the scene
+    
     struct Scene myNewScene;
     myNewScene.nbSphere = nbSphere;
     myNewScene.width = width;
