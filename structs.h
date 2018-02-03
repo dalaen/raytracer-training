@@ -115,6 +115,8 @@ extern "C" {
         float floatAttribute;
     };
     
+    //Continued dev
+
     struct LineData
     {
         char* attributeName;
