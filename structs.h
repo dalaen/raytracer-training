@@ -124,7 +124,7 @@ extern "C" {
     
     enum FileFormat
     {
-        PPM, PPMB
+        PPM, PPMB, JPG, JPEG, PNG
     };
     
     struct OutputInfo
