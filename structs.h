@@ -96,9 +96,14 @@ extern "C" {
         float distance;
     };
     
+    enum Logical
+	{
+    		AND, OR, XOR, NOT
+	};
+
     enum Operation
     {
-        EQUAL, NOT_EQUAL, GREATER_THAN, SMALLER_THAN, EQUAL_GREATER_THAN, EQUAL_SMALLER_THAN
+        EQUAL, NOT_EQUAL, GREATER_THAN, SMALLER_THAN, EQUAL_OR_GREATER_THAN, EQUAL_OR_SMALLER_THAN
     };
     
     union AttributeValue
