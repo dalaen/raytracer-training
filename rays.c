@@ -38,7 +38,7 @@ long findMaterialIdByName(const struct Material* haystack, char* name, const lon
         if (strcmp(haystack[i].name, name) == 0)
             return i;
 
-    return -1;
+    return -1; // exits
 }
 
 long findCameraIdUsed(const struct Camera* haystack, const long nbCameras)
