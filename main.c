@@ -46,7 +46,7 @@ int main(int argc, char** argv)
     /*************************************************************/
     for (i = 0 ; i < 0.5 * argc - 0.5; i++)
     {
-        if (isCLIOption("-h", i)) // Display help
+        if (isCLIOption("-h", i)) // Display help and only the help
         {
             fprintf(stderr, "Welcome to raytracing 0.1.x\n\n");
             fprintf(stderr, "SYNOPSIS\n");
