@@ -70,6 +70,7 @@ int main(int argc, char** argv)
             {
                 whichFilename[i] = &sceneFilename;
                 isConf[i] = 1;
+                // done
             }
             else if (isCLIOption("-r", i))
             {
