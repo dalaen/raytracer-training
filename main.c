@@ -66,7 +66,7 @@ int main(int argc, char** argv)
         }
         if (argv[getArrayLocationByI(i)])
         {
-            if (isCLIOption("-s", i)) // Scene file following
+            if (isCLIOption("-s", i)) // Scene file following here
             {
                 whichFilename[i] = &sceneFilename;
                 isConf[i] = 1;
