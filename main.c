@@ -72,7 +72,7 @@ int main(int argc, char** argv)
                 isConf[i] = 1;
                 // done
             }
-            else if (isCLIOption("-r", i)) // new dev
+            else if (isCLIOption("-r", i)) // ncommit local
             {
                 whichFilename[i] = &renderFilename;
                 isConf[i] = 1;
