@@ -2,7 +2,7 @@
  * File:   main.c
  * Author: xavier*/
  
- // Diverging on the securing branch and there
+ // Diverging on the securing branch and there commit distant
 #include "structs.h"
 #include "rays.h"
 #include "spheres.h"
