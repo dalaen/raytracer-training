@@ -2,7 +2,7 @@
  * File:   main.c
  * Author: xavier*/
  
- // Diverging on the securing branch
+ // Diverging on the securing branch and there
 #include "structs.h"
 #include "rays.h"
 #include "spheres.h"
